@@ -1,0 +1,28 @@
+ Running on this:-
+killall node  
+or pkill 8000  node
+
+ //For env :- 
+npm install dotenv
+
+//Cors for connecting frontend and bancend
+Steps:- 
+    first import :-  const cors =  require('cors');
+
+    if(process.env.N)
+
+
+
+//Default Route 
+// Setting Route 
+const blogRoute =  require('./route/blog')
+app.use('/blog', blogRoute);
+
+
+
+/For Validating name and email:- 
+
+
+//JSon web Token 
+jsonwebtoken is used to generated token 
+express-token is used to check whether this token is valid or not.
